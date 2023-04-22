@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21513" systemVersion="21G531" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Entity" representedClassName="Entity" syncable="YES" codeGenerationType="class"/>
+    <entity name="PatientDetails" representedClassName="PatientDetails" syncable="YES">
+        <attribute name="cBloodGroup" optional="YES" attributeType="String"/>
+        <attribute name="cName" optional="YES" attributeType="String"/>
+        <attribute name="cPhone" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="UserDetails" representedClassName="UserDetails" syncable="YES">
+        <attribute name="available" optional="YES" attributeType="String"/>
+        <attribute name="bloodType" optional="YES" attributeType="String"/>
+        <attribute name="conformPassword" optional="YES" attributeType="String"/>
+        <attribute name="gender" optional="YES" attributeType="String"/>
+        <attribute name="mobile" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="password" optional="YES" attributeType="String"/>
+    </entity>
+</model>

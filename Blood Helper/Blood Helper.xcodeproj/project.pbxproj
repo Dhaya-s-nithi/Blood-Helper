@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		222C4D0229DFD81200D71217 /* UserDetails+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222C4D0029DFD81200D71217 /* UserDetails+CoreDataClass.swift */; };
+		222C4D0329DFD81200D71217 /* UserDetails+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222C4D0129DFD81200D71217 /* UserDetails+CoreDataProperties.swift */; };
+		222C4D0E29DFEECD00D71217 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222C4D0D29DFEECD00D71217 /* HomeViewController.swift */; };
+		222C4D1729DFFF9200D71217 /* BloodTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222C4D1629DFFF9200D71217 /* BloodTypeViewController.swift */; };
+		224160F729ED60B200B5BF06 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224160F629ED60B200B5BF06 /* SceneDelegate.swift */; };
+		2249E8FF29EFECBF00B81776 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2249E8FE29EFECBF00B81776 /* MoreViewController.swift */; };
+		224BEC0E29DEC87000AEAB79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224BEC0D29DEC87000AEAB79 /* AppDelegate.swift */; };
+		224BEC1229DEC87000AEAB79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224BEC1129DEC87000AEAB79 /* ViewController.swift */; };
+		224BEC1529DEC87000AEAB79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 224BEC1329DEC87000AEAB79 /* Main.storyboard */; };
+		224BEC1829DEC87000AEAB79 /* Blood_Helper.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 224BEC1629DEC87000AEAB79 /* Blood_Helper.xcdatamodeld */; };
+		224BEC1A29DEC87200AEAB79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 224BEC1929DEC87200AEAB79 /* Assets.xcassets */; };
+		224BEC1D29DEC87200AEAB79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 224BEC1B29DEC87200AEAB79 /* LaunchScreen.storyboard */; };
+		224BEC3129DECDA600AEAB79 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 224BEC2529DECDA600AEAB79 /* Roboto-Bold.ttf */; };
+		224BEC3229DECDA600AEAB79 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 224BEC2629DECDA600AEAB79 /* Roboto-ThinItalic.ttf */; };
+		224BEC3329DECDA600AEAB79 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 224BEC2729DECDA600AEAB79 /* Roboto-Regular.ttf */; };
+		224BEC3429DECDA600AEAB79 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 224BEC2829DECDA600AEAB79 /* Roboto-Thin.ttf */; };
+		224BEC3529DECDA600AEAB79 /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 224BEC2929DECDA600AEAB79 /* Roboto-MediumItalic.ttf */; };
+		224BEC3629DECDA600AEAB79 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 224BEC2A29DECDA600AEAB79 /* Roboto-LightItalic.ttf */; };
+		224BEC3729DECDA600AEAB79 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 224BEC2B29DECDA600AEAB79 /* Roboto-Black.ttf */; };
+		224BEC3829DECDA600AEAB79 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 224BEC2C29DECDA600AEAB79 /* Roboto-BoldItalic.ttf */; };
+		224BEC3929DECDA600AEAB79 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 224BEC2D29DECDA600AEAB79 /* Roboto-Light.ttf */; };
+		224BEC3A29DECDA600AEAB79 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 224BEC2E29DECDA600AEAB79 /* Roboto-Italic.ttf */; };
+		224BEC3B29DECDA600AEAB79 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 224BEC2F29DECDA600AEAB79 /* Roboto-BlackItalic.ttf */; };
+		224BEC3C29DECDA600AEAB79 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 224BEC3029DECDA600AEAB79 /* Roboto-Medium.ttf */; };
+		224BEC3E29DED4AD00AEAB79 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224BEC3D29DED4AD00AEAB79 /* LoginViewController.swift */; };
+		224BEC4029DED4BC00AEAB79 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224BEC3F29DED4BC00AEAB79 /* RegisterViewController.swift */; };
+		228B30D229E53F6900FF1F2B /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228B30D129E53F6900FF1F2B /* Database.swift */; };
+		228B30D429E558DB00FF1F2B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228B30D329E558DB00FF1F2B /* DetailViewController.swift */; };
+		229530E329E68A8600C8BFC0 /* PatientDetails+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229530E129E68A8600C8BFC0 /* PatientDetails+CoreDataClass.swift */; };
+		229530E429E68A8600C8BFC0 /* PatientDetails+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229530E229E68A8600C8BFC0 /* PatientDetails+CoreDataProperties.swift */; };
+		22A1FB5B29EFA51100262923 /* ContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A1FB5929EFA51100262923 /* ContactTableViewCell.swift */; };
+		22A1FB5C29EFA51100262923 /* ContactTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22A1FB5A29EFA51100262923 /* ContactTableViewCell.xib */; };
+		22A1FB5E29EFA81700262923 /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A1FB5D29EFA81700262923 /* ContactsViewController.swift */; };
+		22B8209829EE73E5006B5838 /* AddContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B8209729EE73E5006B5838 /* AddContactsViewController.swift */; };
+		22B8209A29EE7C5B006B5838 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B8209929EE7C5B006B5838 /* ResultViewController.swift */; };
+		22CE2FAA29E425A500363ECE /* ProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CE2FA829E425A500363ECE /* ProfileTableViewCell.swift */; };
+		22CE2FAB29E425A500363ECE /* ProfileTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22CE2FA929E425A500363ECE /* ProfileTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		222C4D0029DFD81200D71217 /* UserDetails+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDetails+CoreDataClass.swift"; sourceTree = "<group>"; };
+		222C4D0129DFD81200D71217 /* UserDetails+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDetails+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		222C4D0D29DFEECD00D71217 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		222C4D1629DFFF9200D71217 /* BloodTypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloodTypeViewController.swift; sourceTree = "<group>"; };
+		224160F629ED60B200B5BF06 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2249E8FE29EFECBF00B81776 /* MoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
+		224BEC0A29DEC87000AEAB79 /* Blood Helper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Blood Helper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		224BEC0D29DEC87000AEAB79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		224BEC1129DEC87000AEAB79 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		224BEC1429DEC87000AEAB79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		224BEC1729DEC87000AEAB79 /* Blood_Helper.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Blood_Helper.xcdatamodel; sourceTree = "<group>"; };
+		224BEC1929DEC87200AEAB79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		224BEC1C29DEC87200AEAB79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		224BEC1E29DEC87200AEAB79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		224BEC2529DECDA600AEAB79 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		224BEC2629DECDA600AEAB79 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		224BEC2729DECDA600AEAB79 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		224BEC2829DECDA600AEAB79 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		224BEC2929DECDA600AEAB79 /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		224BEC2A29DECDA600AEAB79 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		224BEC2B29DECDA600AEAB79 /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		224BEC2C29DECDA600AEAB79 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		224BEC2D29DECDA600AEAB79 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		224BEC2E29DECDA600AEAB79 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		224BEC2F29DECDA600AEAB79 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		224BEC3029DECDA600AEAB79 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		224BEC3D29DED4AD00AEAB79 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		224BEC3F29DED4BC00AEAB79 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		228B30D129E53F6900FF1F2B /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		228B30D329E558DB00FF1F2B /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		229530E129E68A8600C8BFC0 /* PatientDetails+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PatientDetails+CoreDataClass.swift"; sourceTree = "<group>"; };
+		229530E229E68A8600C8BFC0 /* PatientDetails+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PatientDetails+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		22A1FB5929EFA51100262923 /* ContactTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactTableViewCell.swift; sourceTree = "<group>"; };
+		22A1FB5A29EFA51100262923 /* ContactTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactTableViewCell.xib; sourceTree = "<group>"; };
+		22A1FB5D29EFA81700262923 /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
+		22B8209729EE73E5006B5838 /* AddContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactsViewController.swift; sourceTree = "<group>"; };
+		22B8209929EE7C5B006B5838 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		22CE2FA829E425A500363ECE /* ProfileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewCell.swift; sourceTree = "<group>"; };
+		22CE2FA929E425A500363ECE /* ProfileTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		224BEC0729DEC87000AEAB79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		222C4CFE29DFD38600D71217 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				229530E129E68A8600C8BFC0 /* PatientDetails+CoreDataClass.swift */,
+				229530E229E68A8600C8BFC0 /* PatientDetails+CoreDataProperties.swift */,
+				222C4D0029DFD81200D71217 /* UserDetails+CoreDataClass.swift */,
+				222C4D0129DFD81200D71217 /* UserDetails+CoreDataProperties.swift */,
+				228B30D129E53F6900FF1F2B /* Database.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		222C4CFF29DFD3AF00D71217 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				224BEC0D29DEC87000AEAB79 /* AppDelegate.swift */,
+				224160F629ED60B200B5BF06 /* SceneDelegate.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		224BEC0129DEC87000AEAB79 = {
+			isa = PBXGroup;
+			children = (
+				222C4CFE29DFD38600D71217 /* CoreData */,
+				224BEC0C29DEC87000AEAB79 /* Blood Helper */,
+				224BEC0B29DEC87000AEAB79 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		224BEC0B29DEC87000AEAB79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				224BEC0A29DEC87000AEAB79 /* Blood Helper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		224BEC0C29DEC87000AEAB79 /* Blood Helper */ = {
+			isa = PBXGroup;
+			children = (
+				22B8209C29EEA96B006B5838 /* Cell */,
+				22B8209B29EEA94A006B5838 /* Controllers */,
+				222C4CFF29DFD3AF00D71217 /* Main */,
+				224BEC1329DEC87000AEAB79 /* Main.storyboard */,
+				224BEC2429DECCE900AEAB79 /* Font */,
+				224BEC1929DEC87200AEAB79 /* Assets.xcassets */,
+				224BEC1B29DEC87200AEAB79 /* LaunchScreen.storyboard */,
+				224BEC1E29DEC87200AEAB79 /* Info.plist */,
+				224BEC1629DEC87000AEAB79 /* Blood_Helper.xcdatamodeld */,
+			);
+			path = "Blood Helper";
+			sourceTree = "<group>";
+		};
+		224BEC2429DECCE900AEAB79 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				224BEC2B29DECDA600AEAB79 /* Roboto-Black.ttf */,
+				224BEC2F29DECDA600AEAB79 /* Roboto-BlackItalic.ttf */,
+				224BEC2529DECDA600AEAB79 /* Roboto-Bold.ttf */,
+				224BEC2C29DECDA600AEAB79 /* Roboto-BoldItalic.ttf */,
+				224BEC2E29DECDA600AEAB79 /* Roboto-Italic.ttf */,
+				224BEC2D29DECDA600AEAB79 /* Roboto-Light.ttf */,
+				224BEC2A29DECDA600AEAB79 /* Roboto-LightItalic.ttf */,
+				224BEC3029DECDA600AEAB79 /* Roboto-Medium.ttf */,
+				224BEC2929DECDA600AEAB79 /* Roboto-MediumItalic.ttf */,
+				224BEC2729DECDA600AEAB79 /* Roboto-Regular.ttf */,
+				224BEC2829DECDA600AEAB79 /* Roboto-Thin.ttf */,
+				224BEC2629DECDA600AEAB79 /* Roboto-ThinItalic.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		22B8209B29EEA94A006B5838 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				224BEC1129DEC87000AEAB79 /* ViewController.swift */,
+				224BEC3D29DED4AD00AEAB79 /* LoginViewController.swift */,
+				224BEC3F29DED4BC00AEAB79 /* RegisterViewController.swift */,
+				222C4D1629DFFF9200D71217 /* BloodTypeViewController.swift */,
+				222C4D0D29DFEECD00D71217 /* HomeViewController.swift */,
+				228B30D329E558DB00FF1F2B /* DetailViewController.swift */,
+				22B8209729EE73E5006B5838 /* AddContactsViewController.swift */,
+				22B8209929EE7C5B006B5838 /* ResultViewController.swift */,
+				22A1FB5D29EFA81700262923 /* ContactsViewController.swift */,
+				2249E8FE29EFECBF00B81776 /* MoreViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		22B8209C29EEA96B006B5838 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				22CE2FA829E425A500363ECE /* ProfileTableViewCell.swift */,
+				22A1FB5929EFA51100262923 /* ContactTableViewCell.swift */,
+				22CE2FA929E425A500363ECE /* ProfileTableViewCell.xib */,
+				22A1FB5A29EFA51100262923 /* ContactTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		224BEC0929DEC87000AEAB79 /* Blood Helper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 224BEC2129DEC87200AEAB79 /* Build configuration list for PBXNativeTarget "Blood Helper" */;
+			buildPhases = (
+				224BEC0629DEC87000AEAB79 /* Sources */,
+				224BEC0729DEC87000AEAB79 /* Frameworks */,
+				224BEC0829DEC87000AEAB79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Blood Helper";
+			packageProductDependencies = (
+			);
+			productName = "Blood Helper";
+			productReference = 224BEC0A29DEC87000AEAB79 /* Blood Helper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		224BEC0229DEC87000AEAB79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					224BEC0929DEC87000AEAB79 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 224BEC0529DEC87000AEAB79 /* Build configuration list for PBXProject "Blood Helper" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 224BEC0129DEC87000AEAB79;
+			packageReferences = (
+			);
+			productRefGroup = 224BEC0B29DEC87000AEAB79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				224BEC0929DEC87000AEAB79 /* Blood Helper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		224BEC0829DEC87000AEAB79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				224BEC3429DECDA600AEAB79 /* Roboto-Thin.ttf in Resources */,
+				22CE2FAB29E425A500363ECE /* ProfileTableViewCell.xib in Resources */,
+				224BEC3829DECDA600AEAB79 /* Roboto-BoldItalic.ttf in Resources */,
+				224BEC3929DECDA600AEAB79 /* Roboto-Light.ttf in Resources */,
+				224BEC3B29DECDA600AEAB79 /* Roboto-BlackItalic.ttf in Resources */,
+				224BEC3329DECDA600AEAB79 /* Roboto-Regular.ttf in Resources */,
+				224BEC3C29DECDA600AEAB79 /* Roboto-Medium.ttf in Resources */,
+				224BEC3229DECDA600AEAB79 /* Roboto-ThinItalic.ttf in Resources */,
+				224BEC3A29DECDA600AEAB79 /* Roboto-Italic.ttf in Resources */,
+				22A1FB5C29EFA51100262923 /* ContactTableViewCell.xib in Resources */,
+				224BEC1D29DEC87200AEAB79 /* LaunchScreen.storyboard in Resources */,
+				224BEC3529DECDA600AEAB79 /* Roboto-MediumItalic.ttf in Resources */,
+				224BEC3629DECDA600AEAB79 /* Roboto-LightItalic.ttf in Resources */,
+				224BEC1A29DEC87200AEAB79 /* Assets.xcassets in Resources */,
+				224BEC3729DECDA600AEAB79 /* Roboto-Black.ttf in Resources */,
+				224BEC3129DECDA600AEAB79 /* Roboto-Bold.ttf in Resources */,
+				224BEC1529DEC87000AEAB79 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		224BEC0629DEC87000AEAB79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				228B30D429E558DB00FF1F2B /* DetailViewController.swift in Sources */,
+				224BEC1829DEC87000AEAB79 /* Blood_Helper.xcdatamodeld in Sources */,
+				229530E329E68A8600C8BFC0 /* PatientDetails+CoreDataClass.swift in Sources */,
+				22A1FB5E29EFA81700262923 /* ContactsViewController.swift in Sources */,
+				224BEC1229DEC87000AEAB79 /* ViewController.swift in Sources */,
+				2249E8FF29EFECBF00B81776 /* MoreViewController.swift in Sources */,
+				224BEC0E29DEC87000AEAB79 /* AppDelegate.swift in Sources */,
+				22CE2FAA29E425A500363ECE /* ProfileTableViewCell.swift in Sources */,
+				22A1FB5B29EFA51100262923 /* ContactTableViewCell.swift in Sources */,
+				224BEC4029DED4BC00AEAB79 /* RegisterViewController.swift in Sources */,
+				224160F729ED60B200B5BF06 /* SceneDelegate.swift in Sources */,
+				22B8209A29EE7C5B006B5838 /* ResultViewController.swift in Sources */,
+				222C4D0229DFD81200D71217 /* UserDetails+CoreDataClass.swift in Sources */,
+				229530E429E68A8600C8BFC0 /* PatientDetails+CoreDataProperties.swift in Sources */,
+				228B30D229E53F6900FF1F2B /* Database.swift in Sources */,
+				22B8209829EE73E5006B5838 /* AddContactsViewController.swift in Sources */,
+				222C4D0E29DFEECD00D71217 /* HomeViewController.swift in Sources */,
+				224BEC3E29DED4AD00AEAB79 /* LoginViewController.swift in Sources */,
+				222C4D1729DFFF9200D71217 /* BloodTypeViewController.swift in Sources */,
+				222C4D0329DFD81200D71217 /* UserDetails+CoreDataProperties.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		224BEC1329DEC87000AEAB79 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				224BEC1429DEC87000AEAB79 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		224BEC1B29DEC87200AEAB79 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				224BEC1C29DEC87200AEAB79 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		224BEC1F29DEC87200AEAB79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		224BEC2029DEC87200AEAB79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		224BEC2229DEC87200AEAB79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Logo";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VV8U4TGQDX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Blood Helper/Info.plist";
+				INFOPLIST_KEY_NSContactsUsageDescription = "Please allow to get contacts to share Donar/Reciever Details";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.skein.Blood-Helper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		224BEC2329DEC87200AEAB79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Logo";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VV8U4TGQDX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Blood Helper/Info.plist";
+				INFOPLIST_KEY_NSContactsUsageDescription = "Please allow to get contacts to share Donar/Reciever Details";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.skein.Blood-Helper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		224BEC0529DEC87000AEAB79 /* Build configuration list for PBXProject "Blood Helper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				224BEC1F29DEC87200AEAB79 /* Debug */,
+				224BEC2029DEC87200AEAB79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		224BEC2129DEC87200AEAB79 /* Build configuration list for PBXNativeTarget "Blood Helper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				224BEC2229DEC87200AEAB79 /* Debug */,
+				224BEC2329DEC87200AEAB79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		224BEC1629DEC87000AEAB79 /* Blood_Helper.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				224BEC1729DEC87000AEAB79 /* Blood_Helper.xcdatamodel */,
+			);
+			currentVersion = 224BEC1729DEC87000AEAB79 /* Blood_Helper.xcdatamodel */;
+			path = Blood_Helper.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 224BEC0229DEC87000AEAB79 /* Project object */;
+}
